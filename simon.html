@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon - simo game</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .btn{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            border-radius: 20%;
+            margin: 5px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .pink{
+            background-color: pink;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .green{
+            background-color: green;
+        }
+        .flash{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simon Game</h1>
+    <h2>press any key to start</h2>
+
+    <div class="container">
+        <div class="line-one">
+        <div class="btn pink" type="button" id="pink">1</div>
+        <div class="btn blue" type="button" id="blue">2</div>
+        </div>
+        <div class="line-two">
+        <div class="btn yellow" type="button" id="yellow">3</div>
+        <div class="btn green" type="button" id="green">4</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <script src="javascript12.js"></script>
+</body>
+</html>
